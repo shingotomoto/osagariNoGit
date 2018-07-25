@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A21865F2107635700A0DFD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21865E2107635700A0DFD1 /* LoginViewController.swift */; };
 		1A7CC0282107511C00C8AECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CC0272107511C00C8AECE /* AppDelegate.swift */; };
 		1A7CC02A2107511C00C8AECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CC0292107511C00C8AECE /* ViewController.swift */; };
 		1A7CC02D2107511C00C8AECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7CC02B2107511C00C8AECE /* Main.storyboard */; };
 		1A7CC02F2107511E00C8AECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7CC02E2107511E00C8AECE /* Assets.xcassets */; };
 		1A7CC0322107511E00C8AECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7CC0302107511E00C8AECE /* LaunchScreen.storyboard */; };
+		1A7CC03A2107516400C8AECE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A7CC0392107516400C8AECE /* GoogleService-Info.plist */; };
+		3348674708029E06E42E060C /* Pods_osagari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2207260CCC84B3759E78BEF4 /* Pods_osagari.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A21865E2107635700A0DFD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1A7CC0242107511C00C8AECE /* osagari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osagari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7CC0272107511C00C8AECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A7CC0292107511C00C8AECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		1A7CC02E2107511E00C8AECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A7CC0312107511E00C8AECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A7CC0332107511E00C8AECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7CC0392107516400C8AECE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2207260CCC84B3759E78BEF4 /* Pods_osagari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_osagari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7027CADB90F6C3C63E059888 /* Pods-osagari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osagari.release.xcconfig"; path = "Pods/Target Support Files/Pods-osagari/Pods-osagari.release.xcconfig"; sourceTree = "<group>"; };
+		9F4BC4855BA3063800BC2AAD /* Pods-osagari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osagari.debug.xcconfig"; path = "Pods/Target Support Files/Pods-osagari/Pods-osagari.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3348674708029E06E42E060C /* Pods_osagari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				1A7CC0262107511C00C8AECE /* osagari */,
 				1A7CC0252107511C00C8AECE /* Products */,
+				DEF8F47301B686318CA7FF57 /* Pods */,
+				DAAA32E58C7B700B40DCBD09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +67,31 @@
 			children = (
 				1A7CC0272107511C00C8AECE /* AppDelegate.swift */,
 				1A7CC0292107511C00C8AECE /* ViewController.swift */,
+				1A21865E2107635700A0DFD1 /* LoginViewController.swift */,
 				1A7CC02B2107511C00C8AECE /* Main.storyboard */,
 				1A7CC02E2107511E00C8AECE /* Assets.xcassets */,
 				1A7CC0302107511E00C8AECE /* LaunchScreen.storyboard */,
+				1A7CC0392107516400C8AECE /* GoogleService-Info.plist */,
 				1A7CC0332107511E00C8AECE /* Info.plist */,
 			);
 			path = osagari;
+			sourceTree = "<group>";
+		};
+		DAAA32E58C7B700B40DCBD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2207260CCC84B3759E78BEF4 /* Pods_osagari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF8F47301B686318CA7FF57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F4BC4855BA3063800BC2AAD /* Pods-osagari.debug.xcconfig */,
+				7027CADB90F6C3C63E059888 /* Pods-osagari.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A7CC0362107511E00C8AECE /* Build configuration list for PBXNativeTarget "osagari" */;
 			buildPhases = (
+				4C98804CD92FC648FFFA814D /* [CP] Check Pods Manifest.lock */,
 				1A7CC0202107511C00C8AECE /* Sources */,
 				1A7CC0212107511C00C8AECE /* Frameworks */,
 				1A7CC0222107511C00C8AECE /* Resources */,
+				8A85D17DB816C01870DCC1F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A7CC0322107511E00C8AECE /* LaunchScreen.storyboard in Resources */,
+				1A7CC03A2107516400C8AECE /* GoogleService-Info.plist in Resources */,
 				1A7CC02F2107511E00C8AECE /* Assets.xcassets in Resources */,
 				1A7CC02D2107511C00C8AECE /* Main.storyboard in Resources */,
 			);
@@ -130,11 +163,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C98804CD92FC648FFFA814D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-osagari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A85D17DB816C01870DCC1F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-osagari/Pods-osagari-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-osagari/Pods-osagari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A7CC0202107511C00C8AECE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A21865F2107635700A0DFD1 /* LoginViewController.swift in Sources */,
 				1A7CC02A2107511C00C8AECE /* ViewController.swift in Sources */,
 				1A7CC0282107511C00C8AECE /* AppDelegate.swift in Sources */,
 			);
@@ -278,6 +357,7 @@
 		};
 		1A7CC0372107511E00C8AECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4BC4855BA3063800BC2AAD /* Pods-osagari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +376,7 @@
 		};
 		1A7CC0382107511E00C8AECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7027CADB90F6C3C63E059888 /* Pods-osagari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
